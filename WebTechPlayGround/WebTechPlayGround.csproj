@@ -120,6 +120,10 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\AngularJS\AngularJSAreaRegistration.cs" />
+    <Compile Include="Areas\AngularJS\Controllers\AngularJSController.cs" />
+    <Compile Include="Areas\ASPNET_MVC_PartialView\ASPNET_MVC_PartialViewAreaRegistration.cs" />
+    <Compile Include="Areas\ASPNET_MVC_PartialView\Controllers\ASPNET_MVC_PartialViewController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -127,6 +131,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Areas\AngularJS\Scripts\Angular\angularJs_app.js" />
+    <Content Include="Areas\AngularJS\Scripts\Angular\angularJs_app_components.js" />
+    <Content Include="Areas\AngularJS\Scripts\Angular\angularJs_app_controllers.js" />
+    <Content Include="Areas\AngularJS\Scripts\Angular\angularJs_app_directives.js" />
+    <Content Include="Areas\AngularJS\Scripts\Angular\angularJs_app_services.js" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />
@@ -135,6 +144,10 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Areas\ASPNET_MVC_PartialView\Views\web.config" />
+    <Content Include="Areas\ASPNET_MVC_PartialView\Views\ASPNET_MVC_PartialView\Index.cshtml" />
+    <Content Include="Areas\AngularJS\Views\web.config" />
+    <Content Include="Areas\AngularJS\Views\AngularJS\Index.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -164,6 +177,13 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Areas\AngularJS\Contents\css\" />
+    <Folder Include="Areas\AngularJS\Contents\img\" />
+    <Folder Include="Areas\AngularJS\Models\" />
+    <Folder Include="Areas\AngularJS\Views\Shared\" />
+    <Folder Include="Areas\ASPNET_MVC_PartialView\Models\" />
+    <Folder Include="Areas\ASPNET_MVC_PartialView\Views\ASP_NET_MVC_PartialView\" />
+    <Folder Include="Areas\ASPNET_MVC_PartialView\Views\Shared\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
